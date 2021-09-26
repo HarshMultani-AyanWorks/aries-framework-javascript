@@ -96,7 +96,7 @@ export class FabricLedgerService {
         this.gatewayOpts = {
             wallet: this.fabricWallet,
             identity: orgUserId,
-            discovery: { enabled: true, asLocalhost: true },
+            discovery: { enabled: true, asLocalhost: false },
         };
 
     }
