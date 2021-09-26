@@ -38,4 +38,4 @@ ENV RUN_MODE="docker"
 COPY . . 
 
 RUN yarn install
-RUN yarn build
+CMD yarn test -t "fabricledger"
